@@ -1,0 +1,38 @@
+.main_footer{
+    height: 160px;
+    margin-top: 200px;
+	line-height: 1.5;
+}
+.main_footer p.copylight{
+	position: absolute;
+    left: 70px;
+    margin-top: 20px;
+font-family: 'Chivo', sans-serif;
+
+}
+.main_footer p.address{
+
+	position: absolute;
+    left: 500px;
+    margin-top: 20px;
+font-family: 'Chivo', sans-serif;
+
+}
+.main_footer p.hp{
+
+	position: absolute;
+    left: 860px;
+    margin-top: 20px;
+font-family: 'Chivo', sans-serif;
+
+}
+.main_footer span{
+font-size: 14px;
+
+}
+.main_footer .footer_patch{
+	    margin-left: 1200;
+    margin-top: 35px;
+    font-size: 60;
+	font-family: 'Chivo', sans-serif;
+}
