@@ -41,12 +41,22 @@ input, select, textarea {vertical-align:middle; /*border:0;*/}
 /*로고와 메뉴바 */
 div.logo{
 
-     float: left;    
+	 float: left;    
     width: 150px;
-    height: 100px;
+	height: 100px;
    margin-left: 75px;
     margin-top: 30px;
 }
+/*로고와 메뉴바 */
+div.logo_sub{
+
+    float: left;
+    width: 150px;
+    height: 100px;
+    margin-left: 75px;
+    margin-top: 30px;
+}
+
 div.menu_bar{
 
     width: 700px;
@@ -57,19 +67,47 @@ div.menu_bar{
     color: white;
 
 }
+
+div.menu_bar_sub{
+
+    width: 700px;
+    float: right;
+
+    margin-top: 30px;
+    font-size: 30px;
+    color: black;
+
+}
+
+
 .menu_ul ul{
-    color:white;
+	color:white;
 padding-top: 34px;
+}
+
+.menu_ul_sub ul{
+    color:black;
+    padding-top: 34px;
+
 }
 /*header 안 ul들 */
 .menu_bar ul li{
 
   list-style-type:none;
 }
+.menu_bar_sub ul li{
+
+    list-style-type:none;
+}
 .menu_bar ul.menu_ul li{
 
   float:left;
   margin-left:20px;
+}
+.menu_bar_sub ul.menu_ul_sub li{
+
+    float:left;
+    margin-left:20px;
 }
 
 
@@ -81,14 +119,30 @@ padding-top: 34px;
     padding: 5px;
     font-size: 20px;
     width: 110px;
-    
+	
+}
+
+.menu_bar_sub div.lang_div{
+    border: 2px solid #131212;
+    margin-left: 20px;
+    float: left;
+    font-family: 'Concert One', cursive;
+    padding: 5px;
+    font-size: 20px;
+    width: 110px;
+
 }
 div.lang_div img{
     float: right;
     margin-top: 12px;
-    }
+	}
 .menu_ul a{
 color:white;
+	font-family: 'Concert One', cursive;
+
+}
+.menu_ul_sub a{
+    color:black;
     font-family: 'Concert One', cursive;
 
 }
