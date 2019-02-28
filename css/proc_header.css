@@ -41,9 +41,9 @@ input, select, textarea {vertical-align:middle; /*border:0;*/}
 /*로고와 메뉴바 */
 div.logo{
 
-	 float: left;    
+     float: left;    
     width: 150px;
-	height: 100px;
+    height: 100px;
    margin-left: 75px;
     margin-top: 30px;
 }
@@ -58,7 +58,7 @@ div.menu_bar{
 
 }
 .menu_ul ul{
-	color:white;
+    color:white;
 padding-top: 34px;
 }
 /*header 안 ul들 */
@@ -81,14 +81,14 @@ padding-top: 34px;
     padding: 5px;
     font-size: 20px;
     width: 110px;
-	
+    
 }
 div.lang_div img{
     float: right;
     margin-top: 12px;
-	}
+    }
 .menu_ul a{
 color:white;
-	font-family: 'Concert One', cursive;
+    font-family: 'Concert One', cursive;
 
 }

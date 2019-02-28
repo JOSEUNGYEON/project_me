@@ -8,22 +8,22 @@ min-height:800px;
 }
 
 .body_text{
-	color:white;
-	position: relative;
-	top: 480px;
+    color:white;
+    position: relative;
+    top: 480px;
     left: 250px;
-	width:510px;
-	height:auto;
+    width:510px;
+    height:auto;
     float: left;
 
 }
 .body_text h1{
-	font-size: 80px;
-	letter-spacing: 1px;
-	line-height: 1.1;
-	font-family: 'Concert One', cursive;
-	padding-bottom: 20;
-	
+    font-size: 80px;
+    letter-spacing: 1px;
+    line-height: 1.1;
+    font-family: 'Concert One', cursive;
+    padding-bottom: 20;
+    
 }
 .about{
 position:relative; 
@@ -47,7 +47,7 @@ font-family: 'Concert One', cursive;
     position: absolute;
     margin-top: 65px;
     width: 460px;
-	left: 340px;
+    left: 340px;
 font-family: 'Concert One', cursive;
     font-size: 17px;
 /*    line-height: 10;*/
@@ -60,7 +60,7 @@ font-family: 'Concert One', cursive;
     position: absolute;
     margin-top: 65px;
     width: 460px;
-	left: 1105px;
+    left: 1105px;
 font-family: 'Concert One', cursive;
     font-size: 17px;
     padding-top: 160px;
@@ -68,15 +68,15 @@ font-family: 'Concert One', cursive;
 
 }
 .main_news{
-	 height: 550px;
+     height: 550px;
 }
 .main_news hr{
     position: absolute;
     top: 180px;
 }
 .main_news p{
-	 line-height: 2;
-/*	font-family: 'Gamja Flower', cursive;*/
+     line-height: 2;
+/*  font-family: 'Gamja Flower', cursive;*/
 font-family: 'Chivo', sans-serif;
 
     padding-top: 20px;
@@ -85,7 +85,7 @@ font-family: 'Chivo', sans-serif;
     width: 1220px;
     height: 400px;
     margin: 0 auto;
-	line-height: 1.5;
+    line-height: 1.5;
 
 }
 .main_img ul{

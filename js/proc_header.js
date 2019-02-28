@@ -1,5 +1,30 @@
-
+//dom 생성이후 실행 
 $(document).ready(function(){
+
+
+ //f12 , 오른쪾 클릭 막기/
+//	$(document).bind('keydown',function(e){
+//            if ( e.keyCode == 123 /* F12 */) {
+//                e.preventDefault();
+//                e.returnValue = false;
+//            }
+//        });
+
+
+document.onmousedown=disableclick;
+    status="도용방지를 위해 ^ ^.";
+    
+    function disableclick(event){
+        if (event.button==2) {
+            alert(status);
+            return false;
+        }
+    }
+
+
+
+
+
 
 $("ul.lang").on("click", ".init", function() {
     $(this).closest("ul.lang").children('li:not(.init)').slideToggle();
